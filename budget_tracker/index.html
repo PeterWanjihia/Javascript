@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Budget Tracker</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+         <p>Budget Tracker</p>
+
+        </div>
+        
+        <div class="expense-form">
+            <p><span>&#x2b;</span> Add Expense Form</p>
+            <form>
+              <div class="form-group">
+                <label for="expense">Title:</label>
+                <input type="text" id="expense" name="expense" />
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" />
+              </div>
+              <button type="submit">Add</button>
+            </form>
+        </div>
+          
+        <div class="summary">
+            <p>Summary</p>
+            <ul>
+              <li>Total Budget: <span>&#36; 1000</span></li>
+              <li>Total Spent: <span>&#36; 300</span></li>
+              <li>Remaining: <span>&#36; 700</span></li>
+            </ul>
+        </div>
+
+        <div class="expense-list">
+            <p>📋 Expense List (Chronological)</p>
+            <ul>
+              <li>
+                <span class="expense-title">Rent</span>
+                <span class="expense-amount">-$500</span>
+                <span class="expense-actions">
+                  <button class="edit-btn">Edit</button>
+                  <button class="delete-btn">X</button>
+                </span>
+              </li>
+              <li>
+                <span class="expense-title">Groceries</span>
+                <span class="expense-amount">-$200</span>
+                <span class="expense-actions">
+                  <button class="edit-btn">Edit</button>
+                  <button class="delete-btn">X</button>
+                </span>
+              </li>
+              <li>
+                <span class="expense-title">Netflix</span>
+                <span class="expense-amount">-$15</span>
+                <span class="expense-actions">
+                  <button class="edit-btn">Edit</button>
+                  <button class="delete-btn">X</button>
+                </span>
+              </li>
+            </ul>
+          </div>
+          
+          
+          <div class="filters">
+            <p>🔍 Filters & Sort</p>
+          
+            <div class="sort-section">
+              <label for="sort">Sort:</label>
+              <select id="sort" name="sort">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+                <option value="amount">Amount ↑↓</option>
+              </select>
+            </div>
+          
+            <div class="category-filters">
+              <span>Filter by Category:</span>
+              <button class="category-btn">🏠 Rent</button>
+              <button class="category-btn">🍔 Food</button>
+              <button class="category-btn">📺 Subs</button>
+            </div>
+          </div>
+          
+    </div>
+</body>
+</html>
