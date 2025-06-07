@@ -1,0 +1,68 @@
+🔰 Level 1 – Foundations (1–10)
+Ideal if you’re just starting objects + DOM access
+
+Counter App — Increment, decrement, reset
+
+Color Flipper — Change background color on button click
+
+Simple Calculator — Basic arithmetic, input/output
+
+Text Formatter — Bold, italic, underline toggle for a textarea
+
+Digital Clock — Live time rendering
+
+Character Counter — Live count as user types
+
+Accordion Component — Expand/collapse FAQ
+
+Tab Switcher — Change content by clicking tabs
+
+Dark Mode Toggle — Switch theme dynamically
+
+Image Carousel — Next/prev image with index tracking
+
+⚙️ Level 2 – Intermediate Logic + Objects (11–20)
+Start using arrays, objects, loops, and conditional rendering
+
+To-Do List — Add, delete, mark complete (with array)
+
+Grocery List App — CRUD list from object array
+
+Form Validator — Custom rules + error rendering
+
+Password Strength Checker — Color-coded feedback
+
+Modal Popup — Open/close modal with blur backdrop
+
+Tip Calculator — Enter amount + % tip, show result
+
+Movie Search UI — Filter array of movie objects live
+
+Quiz App — Questions from an object, score logic
+
+Keyboard Events Visualizer — Show key pressed
+
+Weather Widget (Static) — Change UI by city (from object data)
+
+🧠 Level 3 – Dynamic DOM & State Logic (21–30)
+Big DOM manipulation, derived state, object-driven logic
+
+Task Manager with Categories — Filter by status/type
+
+Bookmark Manager — Add/save/delete links with titles
+
+Calendar Day Picker — Select day, highlight, store selection
+
+Custom Slider Component — Drag to change value
+
+Emoji Picker — Click to insert emoji into textarea
+
+List Sorter — Sort list (A–Z, Z–A) from object array
+
+Expense Tracker — Add/delete expenses with total
+
+Draggable List Reorder — Manual DOM repositioning
+
+Comment Section — Add comments, replies, collapse
+
+Custom Dropdown Component — Fully styled, dynamic options

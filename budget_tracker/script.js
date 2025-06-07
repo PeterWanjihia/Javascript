@@ -80,19 +80,28 @@ function editExpense(index) {
   }
 }
 
-expenseForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  const title = titleInput.value.trim();
-  const amount = parseFloat(amountInput.value);
 
-  if (title && !isNaN(amount)) {
-    addExpense(title, amount);
-    titleInput.value = "";
-    amountInput.value = "";
-  } else {
-    alert("Please enter valid title and amount.");
-  }
-});
+expenseForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const title = titleInput.value.trim();
+    const amount = parseFloat(amountInput.value);
+  
+    if (title && !isNaN(amount)) {
+      const remaining = totalBudget - totalSpent;
+      
+      if (amount > remaining) {
+        alert("Expense exceeds your remaining budget!");
+        return;
+      }
+  
+      addExpense(title, amount);
+      titleInput.value = "";
+      amountInput.value = "";
+    } else {
+      alert("Please enter a valid title and amount.");
+    }
+  });
+  
 
 setBudgetBtn.addEventListener("click", () => {
   const newBudget = parseFloat(budgetInput.value);
