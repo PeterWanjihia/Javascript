@@ -21,7 +21,177 @@
         </div>
     </header>
     
+
+    <div class="wireframe-note">
+        <strong>🎯 DOM Practice Focus:</strong> These are all the clickable elements and inputs you'll manipulate with JavaScript. Each button, input, and toggle represents a DOM interaction to master!
+    </div>
     
+    <!-- Global Stats Panel -->
+    <div class="stats-panel">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-label">Total Counters</div>
+                <div class="stat-value">3</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Sum of Values</div>
+                <div class="stat-value">42</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Average</div>
+                <div class="stat-value">14</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Highest</div>
+                <div class="stat-value">25</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <!-- Counter Cards Grid -->
+        <div class="counters-grid">
+            <!-- Sample Counter Card 1 -->
+            <div class="counter-card">
+                <div class="counter-header">
+                    <input type="text" class="counter-title" value="Break Timer" placeholder="Counter name">
+                    <button class="delete-btn">×</button>
+                </div>
+                
+                <div class="counter-display">
+                    <div class="counter-value">15</div>
+                </div>
+                
+                <div class="counter-controls">
+                    <button class="counter-btn decrement">−</button>
+                    <button class="counter-btn reset">Reset</button>
+                    <button class="counter-btn increment">+</button>
+                </div>
+                
+                <div class="counter-options">
+                    <div>
+                        <label>Step:</label>
+                        <input type="number" class="step-input" value="1" min="1">
+                    </div>
+                    <button class="auto-toggle">Auto Mode</button>
+                    <div class="theme-picker">
+                        <div class="theme-dot blue"></div>
+                        <div class="theme-dot green"></div>
+                        <div class="theme-dot purple"></div>
+                        <div class="theme-dot red"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Counter Card 2 -->
+            <div class="counter-card">
+                <div class="counter-header">
+                    <input type="text" class="counter-title" value="Push-ups" placeholder="Counter name">
+                    <button class="delete-btn">×</button>
+                </div>
+                
+                <div class="counter-display">
+                    <div class="counter-value">25</div>
+                </div>
+                
+                <div class="counter-controls">
+                    <button class="counter-btn decrement">−</button>
+                    <button class="counter-btn reset">Reset</button>
+                    <button class="counter-btn increment">+</button>
+                </div>
+                
+                <div class="counter-options">
+                    <div>
+                        <label>Step:</label>
+                        <input type="number" class="step-input" value="5" min="1">
+                    </div>
+                    <button class="auto-toggle active">Auto Mode</button>
+                    <div class="theme-picker">
+                        <div class="theme-dot blue"></div>
+                        <div class="theme-dot green"></div>
+                        <div class="theme-dot purple"></div>
+                        <div class="theme-dot red"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Counter Card 3 -->
+            <div class="counter-card">
+                <div class="counter-header">
+                    <input type="text" class="counter-title" value="Water Glasses" placeholder="Counter name">
+                    <button class="delete-btn">×</button>
+                </div>
+                
+                <div class="counter-display">
+                    <div class="counter-value">2</div>
+                </div>
+                
+                <div class="counter-controls">
+                    <button class="counter-btn decrement">−</button>
+                    <button class="counter-btn reset">Reset</button>
+                    <button class="counter-btn increment">+</button>
+                </div>
+                
+                <div class="counter-options">
+                    <div>
+                        <label>Step:</label>
+                        <input type="number" class="step-input" value="1" min="1">
+                    </div>
+                    <button class="auto-toggle">Auto Mode</button>
+                    <div class="theme-picker">
+                        <div class="theme-dot blue"></div>
+                        <div class="theme-dot green"></div>
+                        <div class="theme-dot purple"></div>
+                        <div class="theme-dot red"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions Panel -->
+    <div style="background: #f8f9fa; padding: 2rem; margin-top: 2rem; border-top: 3px solid #e9ecef;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h3 style="color: #495057; margin-bottom: 1rem;">🎯 DOM Elements to Practice With:</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 4px solid #007bff;">
+                    <strong>Buttons</strong>
+                    <ul style="margin: 0.5rem 0; font-size: 0.9rem; color: #666;">
+                        <li>Add Counter</li>
+                        <li>+/- buttons</li>
+                        <li>Reset buttons</li>
+                        <li>Delete (×)</li>
+                        <li>Undo/Redo</li>
+                    </ul>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 4px solid #28a745;">
+                    <strong>Inputs</strong>
+                    <ul style="margin: 0.5rem 0; font-size: 0.9rem; color: #666;">
+                        <li>Counter title</li>
+                        <li>Step size</li>
+                        <li>Number inputs</li>
+                    </ul>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 4px solid #ffc107;">
+                    <strong>Toggles</strong>
+                    <ul style="margin: 0.5rem 0; font-size: 0.9rem; color: #666;">
+                        <li>Dark mode</li>
+                        <li>Auto mode</li>
+                        <li>Theme picker</li>
+                    </ul>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 4px solid #dc3545;">
+                    <strong>Dynamic Updates</strong>
+                    <ul style="margin: 0.5rem 0; font-size: 0.9rem; color: #666;">
+                        <li>Counter values</li>
+                        <li>Stats panel</li>
+                        <li>Theme changes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="counter.js"></script>
 </body>
 </html>
