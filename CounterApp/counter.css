@@ -315,6 +315,27 @@ body {
     margin-bottom: 1rem;
     opacity: 0.5;
 }
+/* Theme Colors */
+.counter-card.blue {
+    border-left: 5px solid #2196F3; /* Blue */
+    background-color: #E3F2FD;
+}
+
+.counter-card.green {
+    border-left: 5px solid #4CAF50; /* Green */
+    background-color: #E8F5E9;
+}
+
+.counter-card.purple {
+    border-left: 5px solid #9C27B0; /* Purple */
+    background-color: #F3E5F5;
+}
+
+.counter-card.red {
+    border-left: 5px solid #F44336; /* Red */
+    background-color: #FFEBEE;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header-content {
